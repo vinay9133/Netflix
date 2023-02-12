@@ -1,0 +1,43 @@
+.accordion-wrapper{
+    max-width: 800px;
+    display: flex;
+    padding: 60px 3%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.accordion-title{
+    font-size: 50px;
+    line-height: 1.1;
+    margin: 0 0 50px 0;
+    text-align: center;
+}
+
+.accordion-item{
+    margin-bottom: 10px;
+}
+
+.accordion-header{
+    display: flex;
+    font-size: 26px;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+    background-color: #303030;
+    justify-content: space-between;
+}
+
+.accordion-body{
+    background-color: #303030;
+    font-size: 26px;
+    padding: 0.8em 1.2em;
+    margin-bottom: 1px;
+}
+
+.accordion-image{
+    filter: brightness(0) invert(1);
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
